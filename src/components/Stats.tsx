@@ -1,11 +1,3 @@
-/* This example requires Tailwind CSS v2.0+ */
-import {
-  AnnotationIcon,
-  GlobeAltIcon,
-  LightningBoltIcon,
-  ScaleIcon,
-} from "@heroicons/react/outline";
-
 const stats = [
   {
     stat: "24/7",
