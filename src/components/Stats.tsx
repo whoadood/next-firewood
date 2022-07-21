@@ -1,11 +1,11 @@
 const stats = [
   {
-    stat: "24/7",
-    description: "Delivery",
+    stat: "5 mile",
+    description: "Radius of 19406",
   },
   {
-    stat: "5m",
-    description: "Radius of 19406",
+    stat: "24/7",
+    description: "Delivery",
   },
   {
     stat: "100%",
@@ -31,11 +31,11 @@ export default function Stats() {
 
         {/* changes */}
         <div className="mt-10">
-          <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-3 md:gap-x-20 md:gap-y-12">
+          <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-3 md:gap-x-0 md:gap-y-10 md:px-6">
             {stats.map((stat) => (
               <div
                 key={stat.stat}
-                className="relative flex justify-center items-center flex-col px-2 py-8 border-2 border-solid shadow rounded"
+                className="relative flex justify-center items-center flex-col px-2 py-8 md:shadow rounded"
               >
                 <dt>
                   <p className="text-4xl leading-6 font-medium text-indigo-600">
